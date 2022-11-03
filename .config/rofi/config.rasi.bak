@@ -1,0 +1,80 @@
+configuration{
+    modi: "drun";
+ 	font: "RobotoMono Nerd Font 14";
+    show-icons: true;
+    //icon-theme: "Tela";
+    terminal: "urxvt";
+    matching: "fuzzy";
+	icon-theme: "Papirus";
+    drun-display-format: "{icon} {name}";
+    display-drun: "";
+}
+
+* {
+    foreground: #E2E8F0;
+    background: #242B38;
+    transparency: "real";
+    //text-color: black; 
+    background-color: rgba (239,0,0,20%); 
+    foreground-color: rgba (0,239,0,20%); 
+    text-color: rgba (0,0,239,90%); 
+}
+
+window {
+    width: 30%;
+    height: 42%;
+    border: 2px;
+    border-color: #3E4452;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+
+inputbar {
+    margin: 8px 0;
+}
+
+prompt {
+    text-color: rgba (0,0,239,90%); 
+    //text-color: #242B38;
+    padding: 4px 8px;
+    border-radius: 2px;
+    //background-color: #98C379;
+    //background-color: rgba (239,0,0,20%); 
+}
+
+entry {
+    padding: 4px;
+    expand: true;
+}
+
+listview {
+    columns: 1;
+}
+
+element {
+    padding: 8px 10px;
+    border-radius: 2px;
+}
+
+element selected {
+    //background-color: #3E4452;
+    //background-color: rgba (239,0,0,20%); 
+}
+
+element-icon {
+    margin: 0 8px 0 0;
+}
+
+element-text {
+    font: "Roboto 14";
+}
+
+element-icon selected {
+    //background-color: #3E4452;
+    background-color: rgba (239,0,0,20%); 
+}
+
+element-text selected {
+    background-color: #3E4452;
+    //background-color: rgba (239,0,0,20%); 
+}
