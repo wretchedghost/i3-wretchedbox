@@ -5,15 +5,15 @@ What we have here is my latest i3 config for my workstation. I am depreciating m
 #### Pics
 Here are some pictures of my screen using scrot. The wallpapers are of one my favorite places in the world, Portugal.
 
-![my workstation](./Pictures/2021-10-15-125753_3840x1080_scrot.png)
+![my workstation](./Pictures/example/2021-10-15-125753_3840x1080_scrot.png)
 
 Rofi
 
-![my workstation](./Pictures/rofi.png)
+![my workstation](./Pictures/example/rofi.png)
 
 i3Blocks
 
-![my workstation](./Pictures/i3blocks.png)
+![my workstation](./Pictures/example/i3blocks.png)
 
 # Colors
 [https://htmlcolorcodes.com/colors/](https://htmlcolorcodes.com/colors/)

@@ -17,8 +17,8 @@ files=".fehbg .tmux.conf .xinitrc .Xresources"
 
 mv ~/.config/i3 $dot && ln -s $dir/.config/i3 ~/.config/
 mv ~/.config/rofi $dot && ln -s $dir/.config/rofi ~/.config/
-mv ~/.config/dunst $dot && ln -s $dir/.config/dusnt ~/.config/
-mv ~/Pictures/ $dot && ln -s $dir/Pictures/ ~/Pictures/
+ln -s $dir/.config/dusnt ~/.config/
+ln -s $dir/Pictures/Portugal ~/Pictures/Portugal
 mv ~/.local/share/applications/libreoffice-writer.desktop $dot && ln -s $dir/libreoffice-writer.desktop ~/.local/share/applications/
 
 ##########
@@ -30,9 +30,8 @@ mv ~/.local/share/applications/libreoffice-writer.desktop $dot && ln -s $dir/lib
 
 # move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks from the homedir to any files in the ~/dotfiles directory specified in $files
 for file in $files; do
-    cd ~/
+    mv $file $dot
     echo "Creating symlink to $file in home directory."
-    mv $files $dot
     ln -s $dir/$file ~/$file
 done
 
