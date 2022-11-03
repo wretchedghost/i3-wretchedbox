@@ -1,21 +1,22 @@
 #!/bin/bash
 ############################
-# .make.sh
-# This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
+# dotfile-link.sh
+# This script creates symlinks from the home directory to any desired dotfiles
 ############################
 
 ########## Variables
 
 # dotfiles directory
-dir=~/github/i3Workstation
+dir=~/github/i3-wretchedbox
 
 # list of files/folders to symlink in homedir
 files=".fehbg .tmux.conf .xinitrc .Xresources"
 
-ln -s $dir/.config/i3 ~/.config/
-ln -s $dir/.config/rofi ~/.config/
-ln -s $dir/.config/dusnt ~/.config/
-ln -s $dir/Pictures/ ~/Pictures/
+rm -rf $dir/.config/i3 && ln -s $dir/.config/i3 ~/.config/
+rm -rf $dir/.config/rofi && ln -s $dir/.config/rofi ~/.config/
+rm -rf $dir/.config/dunst && ln -s $dir/.config/dusnt ~/.config/
+rm -rf $dir/Pictures/ && ln -s $dir/Pictures/ ~/Pictures/
+rm -rf $dir/ln -s $dir/ ~/.local/share/applications/
 
 ##########
 
