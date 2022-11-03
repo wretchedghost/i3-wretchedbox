@@ -1,6 +1,6 @@
 # My i3 Setup
 
-Currenlty this is my config I use on my work computer but mirrors what I use on my personal workstation minus various programs I don't need (TeamViewer, Remmina, etc).
+What we have here is my latest i3 config for my workstation. I am depreciating my old workstation config and making an entirely new github repo for each machine I own due to the monitors changing everytime I run a git push and git pull. This setup also now has a script that will get rid of any current .config/i3, etc., configs and place them in a temp folder. It will them symobolically link from my github pulled repo to their respective location in my home folder. It will them erase the temp folder if everything is working correctly. 
 
 #### Pics
 Here are some pictures of my screen using scrot. The wallpapers are of one my favorite places in the world, Portugal.
